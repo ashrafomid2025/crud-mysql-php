@@ -31,7 +31,7 @@ include "connection.php";
             echo "<td class='border'>". $radif['id']. "</td>";
             echo "<td class='border'>". $radif['name']. "</td>";
             echo "<td class='border'>". $radif['PRICE']. "</td>";
-            echo "<td><a class='py-1.5 px-5 bg-red-500 text-white href = 'delete.php?id=". $radif['id']."'>Delete</td>";
+            echo "<td><a class='py-1.5 px-5 bg-red-600 text-white href = 'delete.php?id=". $radif['id']."'>Delete</td>";
             echo "<td class ='border h-[40px]'><a class='py-1.5 px-5 bg-blue-500 text-white' href ='update.php?id=".$radif['id']."'>Update</a></td>";
             echo "<tr>";
         }
