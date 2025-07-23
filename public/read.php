@@ -42,7 +42,7 @@ include "connection.php";
 
      if(isset($_GET["message"])){
     if($_GET["message"]==="success"){
-        echo "<h1 id='message' class='absolute top-2 right-3 bg-green-400 text-white p-4'>One item delete</h1>";
+        echo "<h1 id='message' class='absolute top-1.5 right-3 bg-green-400 text-white p-4'>One item delete</h1>";
     }
     else{
         echo "<h1>The item could not be deleted</h1>";
